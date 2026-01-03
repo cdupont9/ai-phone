@@ -113,33 +113,3 @@ app.listen(3000, () => {
   console.log("Server running on port 3000");
 
 });
-
-package.json:
-
-{
-
-  "name": "ai-phone",
-
-  "version": "1.0.0",
-
-  "main": "index.js",
-
-  "scripts": {
-
-    "start": "node index.js"
-
-  },
-
-  "dependencies": {
-
-    "express": "^4.18.2",
-
-    "body-parser": "^1.20.2",
-
-    "twilio": "^4.16.0",
-
-    "axios": "^1.7.5"
-
-  }
-
-}
